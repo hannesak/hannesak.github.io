@@ -9,6 +9,22 @@ const { lang } = Astro.props;
   class="flex min-h-screen items-center bg-white px-8 sm:px-12 md:px-16 lg:px-24"
 >
   <div>
+    {
+      lang.hero.hello && (
+        <p class="mb-4 text-lg text-gray-500">
+          {lang.hero.hello}
+        </p>
+      )
+    }
+
+    {
+      lang.hero.im && (
+        <p class="mb-2 text-2xl sm:text-3xl font-medium text-gray-500">
+          {lang.hero.im}
+        </p>
+      )
+    }
+
     <h1 class="text-5xl sm:text-6xl md:text-7xl xl:text-8xl font-bold text-gray-900">
       {siteConfig.name}
     </h1>
@@ -18,9 +34,13 @@ const { lang } = Astro.props;
       style={`background-color: ${siteConfig.accentColor}`}
     />
 
-    <p class="mt-6 max-w-xl text-lg text-gray-600 leading-relaxed">
-      {lang.hero.title}
-    </p>
+    {
+      lang.hero.title && (
+        <p class="mt-6 max-w-xl text-lg text-gray-600 leading-relaxed">
+          {lang.hero.title}
+        </p>
+      )
+    }
 
     <a
       href="#projects"

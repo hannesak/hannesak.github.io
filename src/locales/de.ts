@@ -96,8 +96,8 @@ export default {
   },
 
   hero: {
-    hello: "Hallo!",
-    im: "Ich bin",
+    hello: "",
+    im: "",
     title: "Physiker mit Kenntnissen in Python, C/C++ und SQL.",
   },
 
