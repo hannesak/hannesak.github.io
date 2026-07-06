@@ -6,43 +6,27 @@ const { lang } = Astro.props;
 
 <section
   id="hero"
-  class="relative flex min-h-screen items-center justify-center overflow-hidden bg-white"
-  style={`--accent:${siteConfig.accentColor}`}
+  class="flex min-h-screen items-center bg-white px-8 sm:px-12 md:px-16 lg:px-24"
 >
-  <!-- Background -->
-  <div
-    class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,var(--accent),transparent_45%)] opacity-20"
-  />
-
-  <div class="mx-auto max-w-4xl px-6 text-center">
-
-    <p class="mb-4 text-lg text-gray-500">
-      {lang.hero.hello}
-    </p>
-
-    <h1 class="text-5xl font-black tracking-tight leading-tight sm:text-7xl">
-      {lang.hero.im}
-      <span
-        class="block bg-gradient-to-r from-[var(--accent)] to-sky-500 bg-clip-text text-transparent"
-      >
-        {siteConfig.name}
-      </span>
+  <div>
+    <h1 class="text-5xl sm:text-6xl md:text-7xl xl:text-8xl font-bold text-gray-900">
+      {siteConfig.name}
     </h1>
 
-    <p class="mx-auto mt-8 max-w-2xl text-lg leading-8 text-gray-600">
+    <div
+      class="w-[75px] h-[5px] mt-3 rounded-full"
+      style={`background-color: ${siteConfig.accentColor}`}
+    />
+
+    <p class="mt-6 max-w-xl text-lg text-gray-600 leading-relaxed">
       {lang.hero.title}
     </p>
 
-    <div class="mt-12 flex justify-center gap-4">
-
-      <a
-        href="#projects"
-        class="rounded-xl bg-[var(--accent)] px-6 py-3 font-semibold text-white transition hover:scale-105"
-      >
-        {lang.projects.title}
-      </a>
-
-    </div>    
-
+    <a
+      href="#projects"
+      class="inline-block mt-10 rounded-xl bg-gray-900 px-6 py-3 text-white font-medium transition-all duration-300 hover:bg-gray-800 hover:-translate-y-1"
+    >
+      {lang.projects.title}
+    </a>
   </div>
 </section>
