@@ -8,7 +8,7 @@ export default {
 
   about: {
     title: "About Me",
-    text: "Technical physicist with a technical college (HTL) background in electrical engineering and experience in numerical simulation, data analysis, and software development. Strong knowledge of C++ and Python, complemented by practical experience in the planning and design of electrical engineering systems. Analytical mindset, structured approach to problem-solving, and a strong motivation to analyze complex technical challenges and develop innovative solutions.",
+    text: "Physicist with a technical high school background in Electrical Engineering and experience in numerical simulation, physical modeling, and data analysis. Proficient in Python and C++ with practical experience in finite element simulations (FEM) and the design of electrical systems. Analytical mindset, structured approach to problem-solving, and a strong motivation to analyze complex technical challenges and develop innovative solutions.",
   },
 
   education: {
@@ -98,7 +98,7 @@ export default {
   hero: {
     hello: "",
     im: "",
-    title: "Physicist with knowledge of Python, C/C++ and SQL.",
+    title: "Physicist | Python | C/C++ | Numerical Simulation",
   },
   
   projects: {
@@ -127,7 +127,7 @@ export default {
         name: "Bachelor's Thesis: Simulation of Light Control by Two Dielectric Particles Near a Waveguide",
         description:
             "In my bachelor's thesis, I investigated how the propagation of light in an optical waveguide can be influenced by the placement of nanoparticles. The goal was to determine whether optical diodes can be realized in this way.",
-        skills: ["Python", "Pandas", "Netgen/NGSolve"],
+        skills: ["Netgen/NGSolve (FEM)", "Python", "Pandas"],
         },
     ],
   },

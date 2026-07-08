@@ -6,5 +6,11 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/hannes-aghdaei-kößl-800537264",
     github: "https://github.com/hannesak",
   },
-  skills: ["C/C++", "Python", "SQL"],
+  skills: [
+    "Python",
+    "C/C++",
+    "MATLAB/Simulink",
+    "Netgen/NGSolve",
+    "Mathematica"
+  ],
 };

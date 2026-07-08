@@ -8,7 +8,7 @@ export default {
 
   about: {
     title: "Über mich",
-    text: "Technischer Physiker mit HTL-Ausbildung in Elektrotechnik und Erfahrung in numerischer Simulation, Datenanalyse und Softwareentwicklung. Fundierte Kenntnisse in C++ und Python sowie praktische Erfahrung in der Planung elektrotechnischer Anlagen. Analytische Denkweise, strukturierte Arbeitsweise und hohe Motivation, komplexe technische Fragestellungen zu analysieren und innovative Lösungen zu entwickeln.",
+    text: "Technischer Physiker mit HTL-Ausbildung in Elektrotechnik und Erfahrung in numerischer Simulation, physikalischer Modellierung und Datenanalyse. Fundierte Kenntnisse in Python und C++ sowie praktische Erfahrung mit Finite-Elemente-Simulationen und der Planung elektrotechnischer Anlagen. Analytische Denkweise, strukturierte Arbeitsweise und hohe Motivation, komplexe technische Fragestellungen zu analysieren und innovative Lösungen zu entwickeln.",
   },
 
   education: {
@@ -98,7 +98,7 @@ export default {
   hero: {
     hello: "",
     im: "",
-    title: "Physiker mit Kenntnissen in Python, C/C++ und SQL.",
+    title: "Physiker | Python | C/C++ | Numerische Simulation",
   },
 
   projects: {
@@ -118,16 +118,16 @@ export default {
         skills: ["C++", "CERN ROOT"],
         },
         {
-        name: "Simulation von Teilchenüberlappung",
+        name: "Projektarbeit: Simulation von Teilchenüberlappung",
         description:
-            "Projektarbeit: In diesem Projekt habe ich Kriterien für die Überlappung von superelliptischen Teilchen entwickelt, die für Monte-Carlo-Simulationen wichtig sind. Die Aufgabe bestand darin, ein mathematisches Kriterium zu entwickeln, das bestimmt, ob sich diese Teilchen überlappen, berühren oder getrennt sind.",
+            "In diesem Projekt habe ich Kriterien für die Überlappung von superelliptischen Teilchen entwickelt, die für Monte-Carlo-Simulationen wichtig sind. Die Aufgabe bestand darin, ein mathematisches Kriterium zu entwickeln, das bestimmt, ob sich diese Teilchen überlappen, berühren oder getrennt sind.",
         skills: ["Mathematica", "Fortran"],
         },
         {
         name: "Bachelorarbeit: Simulation von Lichtsteuerung durch zwei dielektrische Partikel in der Nähe eines Wellenleiters",
         description:
             "In meiner Bachelorarbeit habe ich untersucht, wie die Ausbreitung von Licht in einem optischen Wellenleiter durch die Platzierung von Nanopartikeln beeinflusst werden kann. Ziel war es, herauszufinden, ob sich so optische Dioden realisieren lassen.",
-        skills: ["Python", "Pandas", "Netgen/NGSolve"],
+        skills: ["Netgen/NGSolve (FEM)", "Python", "Pandas"],
         },
     ],
   },
